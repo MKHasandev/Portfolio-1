@@ -192,6 +192,67 @@ ul, ol {
         left: 0;
     }
 
+    /* logo inside navbar for responsive view start here */
+        .navbar-logo {
+            position: absolute;
+            top: 40px;
+            left: 110px;
+            z-index: 999;
+            opacity: 0;
+        }
+
+        .navbar-logo a {
+            position: relative;
+            color: #302e4d;
+            font-weight: 700;
+        }
+
+        .navbar-logo a span {
+            font-family: 'Clicker Script', cursive;
+        }
+
+        .navbar-logo span:nth-child(1) {
+            font-size: 30px;
+            position: absolute;
+            top: -18px;
+            left: -15px;
+        }
+
+        .navbar-logo span:nth-child(2) {
+            font-size: 50px;
+        }
+
+        .navbar-logo span:nth-child(3) {
+            font-size: 30px;
+            position: absolute;
+            top: -17px;
+            left: 37px;
+        }
+
+        .navbar-logo a::before {
+            content: "";
+            position: absolute;
+            height: 20px;
+            width: 56px;
+            top: 14px;
+            left: -45px;
+            border-left: 5px solid #ec1839;
+            border-bottom: 3px solid #ec1839;
+        }
+
+        .navbar-logo a::after {
+            content: "";
+            position: absolute;
+            height: 20px;
+            width: 56px;
+            top: -35px;
+            right: -39px;
+            border-top: 3px solid #ec1839;
+            border-right: 5px solid #ec1839;
+        }
+
+    /* logo inside navbar for responsive view end here*/
+
     .aside-menu .navbar-aside {
         padding-left: 0;
     }
@@ -241,9 +302,11 @@ ul, ol {
 
     .home .image {
         position: relative;
+        border-bottom: 2px solid #504e70;
+        text-align: center;
     }
 
-    .home .image::before{
+    /* .home .image::before{
         content: '';
         position: absolute;
         bottom: 0;
@@ -251,7 +314,7 @@ ul, ol {
         height: 2px;
         width: 550px;
         background-color: #504e70;
-    }
+    } */
 
     .home .info {
         margin-top: 170px;
@@ -577,6 +640,7 @@ ul, ol {
     .portfolio .p-nav{
         display: flex;
         justify-content: right;
+        cursor: pointer;
         
     }
 
@@ -670,16 +734,16 @@ ul, ol {
         position: relative;
     }
 
-    #testimonials .testimonial-content .quote-icon::before {
+    /* #testimonials .testimonial-content .quote-icon::before {
         content: '';
         position: absolute;
         top: 30px;
         left: -245px;
         background: #e8dfec;
         height: 2px;
-        width: 508px;
+        width: 80%;
         z-index: -1;
-    }
+    } */
 
     #testimonials .testimonial-content .quote-icon i{
         font-size: 30px;
@@ -802,10 +866,10 @@ ul, ol {
         background-color: #ec1839;
     }
 
-    .contact .contact-form {
+    /* .contact .contact-form {
         padding-left: 40px;
         padding-top: 140px;
-    }
+    } */
 
     .contact .contact-form input {
         border-top: 0;
