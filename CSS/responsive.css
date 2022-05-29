@@ -1,3 +1,4 @@
+
 @media (max-width: 1199px) {
     .nav-btn {
         right: 20px;
@@ -99,4 +100,107 @@
     .about .experience-time {
         display: none;
     }
+}
+@media (max-width: 1199px) {
+    .nav-btn {
+        right: 20px;
+    }
+    .logo {
+        left: 50px;
+    }
+    .about .experience-time .ex-center h2 {
+        font-size: 80px;
+        margin-bottom: 41px;
+    }
+    .about .experience-time .ex-center h2::before {
+        height: 150px;
+        width: 150px;
+        top: -32px;
+        left: 5px;
+    }
+    .heading {
+        font-size: 30px;
+    }
+    .about .edu-info .edu-heading {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .about .edu-info .edu-details {
+        margin-bottom: 5px;
+        line-height: 21px;
+    }
+    .contact .contact-heading {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    .contact .contact-info .c-title {
+        display: block;
+    }
+    .contact .follow-us {
+        font-size: 24px;
+        margin-top: 45px;
+    }
+
+    .contact .social-icons {
+        margin-top: 15px;
+    }
+
+    .contact .social-icons a i {
+        font-size: 20px;
+        height: 45px;
+        width: 45px;
+        padding: 13px;
+        margin-right: 4px;
+    }
+}
+
+@media (max-width: 991px) {
+    .logo {
+        display: none;
+    }
+    .nav-btn{
+        left: 30px;
+    }
+    .home img {
+        display: none;
+    }
+    .home .image::before{
+        display: none;
+    }
+
+    .about .experience-time .ex-center h2::before {
+        left: -10px;
+    }
+
+    .about .edu-info::before {
+        height: 455px;
+    }
+
+    .about .skill-heading {
+        margin-top: 20px;
+    }
+
+    .portfolio .portfolio-items img {
+        margin-bottom: 0;
+    }
+
+    .contact .contact-heading {
+        font-size: 35px;
+    }
+
+    .contact .contact-info {
+        display: flex;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .about .intro .hello,
+    .about .intro .hello .name {
+        font-size: 25px;
+    }
+    .about .experience-time {
+        display: none;
+    }
+>>>>>>> 4aebc04e6bcf3f311e9cea351424d1fb2694815a
 }
