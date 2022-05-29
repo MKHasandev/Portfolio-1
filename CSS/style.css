@@ -37,7 +37,7 @@ ul, ol {
     display: block;
     background-color: #f2f2fc;
     z-index: 0;
-    padding-left: 270px;
+/*     padding-left: 270px; */
 }
 
 .sec-heading {
