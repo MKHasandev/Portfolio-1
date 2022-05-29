@@ -37,7 +37,7 @@ ul, ol {
     display: block;
     background-color: #f2f2fc;
     z-index: 0;
-/*     padding-left: 270px; */
+    /* padding-left: 270px; */
 }
 
 .sec-heading {
@@ -213,13 +213,15 @@ ul, ol {
         transition: .5s ease-out;
     }
 
-    .aside-menu ul li:hover a {
+    .aside-menu ul li:hover a,
+    .aside-menu ul a:hover {
         border-bottom: 1px solid #ec1839;
         background-position: left;
+        color: #ec1839;
     }
 
     .aside-menu ul li a.active,
-    .aside-menu ul li a.focus {
+    .aside-menu ul li a:focus{
         color: #ec1839;
         background: lightblue;
     }
@@ -885,7 +887,7 @@ ul, ol {
     .footer {
         background-color: #f2f2fc;
         text-align: center;
-        padding-left: 270px;
+        /* padding-left: 270px; */
         height: 100px;
     }
     .footer span.line {
