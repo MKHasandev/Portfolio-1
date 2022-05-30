@@ -1,13 +1,15 @@
 @media (max-width: 1199px) {
+    .logo {
+        position: absolute;
+    }
     .about .experience-time .ex-center h2 {
         font-size: 80px;
         margin-bottom: 41px;
     }
-    .about .experience-time .ex-center h2::before {
-        height: 150px;
-        width: 150px;
-        top: -32px;
-        left: 5px;
+    .about .experience-time .ex-center h2 {
+        height: 200px;
+        width: 200px;
+        padding: 55px;
     }
     .heading {
         font-size: 30px;
@@ -44,6 +46,9 @@
 }
 
 @media (max-width: 991px) {
+    .nav-btn {
+        right: 40px;
+    }
     .logo {
         display: none;
     }
@@ -54,8 +59,20 @@
         display: none;
     }
 
-    .about .experience-time .ex-center h2::before {
-        left: -10px;
+    .about .intro .intro-details {
+        margin-bottom: 50px;
+    }
+
+    .about .experience-time .ex-center{
+        margin-bottom: 30px;
+    }
+
+    .about .experience-time .ex-center h2 {
+        padding: 55px;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
     }
 
     .about .edu-info::before {
@@ -70,12 +87,20 @@
         margin-bottom: 0;
     }
 
+    #testimonials .testimonial-content .slider-items .quote {
+        font-size: 19px;
+    }
+
     .contact .contact-heading {
         font-size: 35px;
     }
 
     .contact .contact-info {
         display: flex;
+    }
+
+    .contact .contact-form {
+        margin-top: 60px;
     }
 }
 

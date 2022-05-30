@@ -398,13 +398,6 @@ ul, ol {
         position: relative;
     }
 
-    .about .experience-time .ex-center {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%)
-    }
-
     .about .experience-time .ex-center h2 span {
         font-size: 50px;
         font-weight: 700;
@@ -415,24 +408,17 @@ ul, ol {
         font-size: 100px;
         font-weight: 700;
         color: #e8dfec;
-        position: relative;
-        margin-bottom: 41px;
-        z-index: 1;
-    }
-
-    .about .experience-time .ex-center h2::before {
-        content: "";
-        position: absolute;
         height: 200px;
         width: 200px;
         border-radius: 50%;
         background: #ec1839;
-        top: -46px;
-        left: 5px;
-        z-index: -1;
+        padding: 40px;
+        margin: 0 auto;
+        margin-bottom: 15px;
     }
 
     .about .experience-time .ex-center span {
+        margin-top: 40px;
         font-size: 20px;
         color: #504e70;
     }
@@ -724,35 +710,29 @@ ul, ol {
         text-transform: capitalize;
     }
 
-    #testimonials .testimonial-content .quote-icon{
+    #testimonials .testimonial-content .quote-icon i{
+        font-size: 30px;
+        font-weight: 700;
+        color: #fdf9ff;
         height: 60px;
         width: 60px;
         border-radius: 50%;
         background: #ec1839;
         margin: 0 auto;
         margin-bottom: 60px;
-        position: relative;
+        padding: 15px;
+        z-index: 1;
     }
 
-    /* #testimonials .testimonial-content .quote-icon::before {
-        content: '';
-        position: absolute;
-        top: 30px;
-        left: -245px;
-        background: #e8dfec;
-        height: 2px;
-        width: 80%;
+    #testimonials .testimonial-content .quote-icon span {
+        background: #504e70;
+        height: 1px;
+        width: 100%;
+        display: inline-block;
         z-index: -1;
-    } */
-
-    #testimonials .testimonial-content .quote-icon i{
-        font-size: 30px;
-        font-weight: 700;
-        color: #fdf9ff;
         position: absolute;
-        top: 14px;
-        left: 16px;
-        z-index: 1;
+        top: 207px;
+        left: 0;
     }
 
     #testimonials .testimonial-content .slider-items .quote {
